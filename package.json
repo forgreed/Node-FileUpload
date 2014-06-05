@@ -1,0 +1,25 @@
+{
+  "name": "SuperEZUploadz",
+  "version": "0.1.0",
+  "description": "Simple file uploader using expressjs 4 and busboy",
+  "main": "app.js",
+  "dependencies": {
+    "express": ">= 4.0.0"
+    "connect-busboy:" "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forgreed/SuperEZUploadz.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Busboy"
+  ],
+  "author": "greed@varrow.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forgreed/SuperEZUploadz/issues"
+  },
+  "homepage": "https://github.com/forgreed/SuperEZUploadz"
+}
