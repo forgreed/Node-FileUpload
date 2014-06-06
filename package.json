@@ -4,8 +4,8 @@
   "description": "Simple file uploader using expressjs 4 and busboy",
   "main": "app.js",
   "dependencies": {
-    "express": ">= 4.0.0"
-    "connect-busboy:" "*"
+    "express": ">= 4.*",
+    "connect-busboy": "*"
   },
   "repository": {
     "type": "git",

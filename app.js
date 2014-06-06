@@ -4,8 +4,9 @@ var app = express();
 var busboy = require('connect-busboy');
 app.use(busboy());
 
-app.listen(3000);
-console.log('Server listening on port 8080');
+var port = 3000;
+app.listen(port);
+console.log('Server listening on port ' + port);
 
 app.get('/', function(request, response) {
 	fs.readFile('upload.html',function (err, data) {
