@@ -1,15 +1,16 @@
 {
-  "name": "SuperEZUploadz",
-  "version": "0.1.0",
+  "name": "Node-FileUpload",
+  "version": "0.2.0",
   "description": "Simple file uploader using expressjs 4 and busboy",
   "main": "app.js",
   "dependencies": {
     "express": ">= 4.*",
-    "connect-busboy": "*"
+    "connect-busboy": "*",
+    "jade": "*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/forgreed/SuperEZUploadz.git"
+    "url": "https://github.com/forgreed/Node-FileUpload.git"
   },
   "keywords": [
     "Node",
@@ -19,10 +20,10 @@
   "author": "greed@varrow.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forgreed/SuperEZUploadz/issues"
+    "url": "https://github.com/forgreed/Node-FileUpload/issues"
   },
-  "homepage": "https://github.com/forgreed/SuperEZUploadz",
+  "homepage": "https://github.com/forgreed/Node-FileUpload",
   "scripts": {
-    "start": "node app.js"
+    "start": "node bin/www"
   }
 }

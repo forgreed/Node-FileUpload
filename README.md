@@ -4,6 +4,4 @@
 
 ### Gettin' it going:
 	1. `npm install`
-	2. `node app`
-
-### That's it...
+	2. `npm start`
